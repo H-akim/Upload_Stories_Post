@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    background-color: #222;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    max-width: 450px;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+#text_box{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+}
+::placeholder{
+    text-transform: capitalize;
+}
+#prev_text{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    width: 90%;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 20px #000;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+#file{
+    display: none;
+}
+.upload_icon{
+    position: absolute;
+    width: 60px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
